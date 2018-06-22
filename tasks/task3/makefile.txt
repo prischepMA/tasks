@@ -1,0 +1,4 @@
+bin/main: src/main.c src/printNodes.c src/addNode.c src/printInfOldestStud.c
+	gcc -o bin/main src/main.c src/printNodes.c src/addNode.c src/printInfOldestStud.c
+clean:
+	rm -f bin/main
